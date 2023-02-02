@@ -1,0 +1,60 @@
+.card_content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card_curses {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card_curses h1 {
+    text-transform: uppercase;
+}
+
+.card_curses-title {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.card_curses-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 560px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #030303;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.card_curso-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media(max-width: 1200px) {
+    .card_curses-content {
+        width: 400px;
+    }
+}
+
+@media(max-width: 900px) {
+    .card_curses-content {
+        width: 350px;
+    }
+}
+
+@media(max-width: 800px) {
+    .card_content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .card_curses-content {
+        width: auto;
+    }
+}

@@ -1,0 +1,60 @@
+<div class="bg-2">
+    <header class="bg-1">
+        <app-header></app-header>
+    </header>
+
+    <main class="container">
+        <app-introduction
+            nameProfile="André"
+            photoProfile="assets/photos/photoprofile1.png">
+        </app-introduction>
+    </main>
+
+    <article class="container" id="about">
+        <app-about
+        aboutImg="assets/photos/about.png"
+        aboutText="Passionate about technology. I am at the beginning of a journey that will be long, but which has finally given me enthusiasm and energy to improve every day. My focus is to work as a Front-End Developer."></app-about>
+        <h2 class="separator font-1-xl-b cor-1">Skills</h2>
+        <app-skillcard
+        cardTitle1="Languages"
+        cardTitle2="Framework"
+        cardTitle3="Complementary"></app-skillcard>
+        
+    </article>
+
+    <article class="container" id="formation">
+        <div class="home_content">
+            <app-formation></app-formation>
+            <div>
+                <app-cardformation
+                formationType="Technologist"
+                formationCourse="Analysis and Systems Development"
+                formmationSituation="Studying"
+                formationInstitution="Unicesumar"></app-cardformation>
+
+                <app-cardformation
+                formationType="Technologist"
+                formationCourse="Public Safety Management"
+                formmationSituation="Complete"
+                formationInstitution="Braz Cubas"></app-cardformation>
+            </div>
+        </div>
+        <h2 class="separator font-1-xl-b cor-1">Courses</h2>
+        <div>
+            <app-cardcourse
+            cardCourseIcon="assets/photos/idioma.svg"
+            cardCourseTitle="Language"
+            cardCourseIcon1="assets/photos/intensivos.svg"
+            cardCourseTitle1="Intensive Courses"></app-cardcourse> 
+        </div>
+    </article>
+
+    <footer class="bg-1" id="contact">
+        <app-footer
+        footerText="I am available for new challenges. Contact me and we'll arrange a conversation."
+        footerEmail="andrehp.profissional@gmail.com"
+        footerNumber="+55 41 999683882"
+        copy="André H Pereira"></app-footer>
+    </footer>
+</div>
+

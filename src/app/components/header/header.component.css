@@ -1,0 +1,39 @@
+.header {
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.header_navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+
+.header_navbar a {
+    background: var(--cor-3);
+    width: 143px;
+    height: 40px;
+    padding: 16px 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_navbar a:hover {
+    background: var(--cor-p);
+    transition: .5s;
+}
+
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+    .header_navbar {
+        gap: 20px;
+    }
+}

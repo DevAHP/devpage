@@ -1,0 +1,22 @@
+<div class="bg-2">
+    <div class="card_content">
+        <div class="card_container">
+            <h1 class="font-1-l cor-0">{{cardTitle1}}</h1>
+            <ul class="card_list">
+                <li class="font-2-l cor-1" *ngFor="let skill of cardSkillsLanguages">{{skill.name}}</li>
+            </ul>
+        </div>
+        <div class="card_container">
+            <h1 class="font-1-l cor-0">{{cardTitle2}}</h1>
+            <ul class="card_list central-card">
+                <li class="font-2-l cor-1" *ngFor="let skill of cardSkillsFramework">{{skill.name}}</li>
+            </ul>
+        </div>
+        <div class="card_container">
+            <h1 class="font-1-l cor-0">{{cardTitle3}}</h1>
+            <ul class="card_list right-card">
+                <li class="font-2-l cor-1" *ngFor="let skill of cardSkillsOthers">{{skill.name}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

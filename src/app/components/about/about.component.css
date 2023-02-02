@@ -1,0 +1,24 @@
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+@media (max-width: 900px) {
+    .about_content {
+        gap: 20px;
+    }
+    .about_content img {
+        width: 300px;
+    }
+    .about_content p {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .about_content img {
+        width: 200px;
+    }
+}

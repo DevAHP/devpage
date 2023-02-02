@@ -1,0 +1,20 @@
+<div class="card_content">
+    <div class="card_curses">
+        <div class="card_curses-title">
+            <img src="{{cardCourseIcon}}" alt="">
+            <h1 class="font-2-m cor-2">{{cardCourseTitle}}</h1>
+        </div>
+        <ul class="card_curses-content">
+            <li class="card_curso-item" *ngFor="let course of cardCourseList"> <h2 class="font-1-m cor-0">{{course.title}}<span class="font-2-m cor-2">{{course.span}}</span></h2><p class="font-2-m cor-2">{{course.hours}}</p></li>
+        </ul>
+    </div> 
+    <div class="card_curses">
+        <div class="card_curses-title">
+            <img src="{{cardCourseIcon1}}" alt="">
+            <h1 class="font-2-m cor-2">{{cardCourseTitle1}}</h1>
+        </div>
+        <ul class="card_curses-content">
+            <li class="card_curso-item" *ngFor="let course of cardCourseList1"> <h2 class="font-1-m cor-0">{{course.title}}<span class="font-2-m cor-2">{{course.span}}</span></h2><p class="font-2-m cor-2">{{course.hours}}</p></li>
+        </ul>
+    </div> 
+</div>

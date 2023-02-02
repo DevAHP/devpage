@@ -1,0 +1,49 @@
+.formation_graduation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 560px;
+    background: var(--cor-3);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.formation_graduation > h1 {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.formation_graduation > h2 {
+    margin-bottom: 4px;
+}
+
+.formation_graduation > p {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.formation_graduation p::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 14px;
+    margin-right: 8px;
+    border-radius: 3px 0px 0px 3px;
+    background: linear-gradient(180deg, #D7F22D 0%, rgba(211, 10, 10, 0.48) 100%);
+}
+
+@media(max-width: 1200px) {
+    .formation_graduation {
+        width: 460px;
+    }
+}
+
+@media(max-width: 800px) {
+    .formation_graduation {
+       width: auto;
+    }
+}
+
+
