@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-formation',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formation.component.css']
 })
 export class FormationComponent implements OnInit {
+
+  @Input()
+  formationImg: string = '';
 
   constructor() { }
 
