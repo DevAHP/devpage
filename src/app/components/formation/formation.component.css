@@ -11,6 +11,10 @@
     word-break: break-all;
 }
 
+.formation_content img {
+    display: block;
+}
+
 @media(max-width: 1200px) {
     .formation_content img {
         width: 400px;
