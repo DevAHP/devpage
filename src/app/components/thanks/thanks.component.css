@@ -1,0 +1,16 @@
+.thanks {
+    max-width: 1600px;
+    background: var(--cor-5);
+}
+
+.thanks div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 120px;
+}
+
+.thanks div > img {
+    width: 400px;
+}

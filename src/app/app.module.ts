@@ -14,6 +14,7 @@ import { CardformationComponent } from './components/cardformation/cardformation
 import { CardcourseComponent } from './components/cardcourse/cardcourse.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
+import { ThanksComponent } from './components/thanks/thanks.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EmitterComponent } from './components/emitter/emitter.component';
     CardformationComponent,
     CardcourseComponent,
     ModalComponent,
-    EmitterComponent
+    EmitterComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,
