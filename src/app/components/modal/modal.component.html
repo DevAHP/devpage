@@ -1,6 +1,7 @@
 <div class="bg-modal" *ngIf="ativo">
     <div class="modal_content">
         <form action="https://formsubmit.co/e1acd7d358242184d7b27ebac68be64f" method="POST">
+            <input type="hidden" name="_next" value="https://devahp.github.io/devpage/thanks">
             <label class="font-2-m-b cor-0" for="name">Name</label>
             <input class="font-2-s-b" type="text" name="name" id="name" placeholder="Type your name" required>
             <label class="font-2-m-b cor-0" for="email">E-mail</label>
@@ -8,7 +9,6 @@
             <label class="font-2-m-b cor-0" for="message">Message</label>
             <textarea class="font-2-s-b" name="message" id="message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
             <button class="font-2-l cor-0" type="submit">SEND</button>
-            <input type="hidden" name="_next" value="https://devahp.github.io/devpage/thanks">
         </form>
     </div>
 </div>
