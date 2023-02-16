@@ -33,6 +33,7 @@
 @media(max-width: 800px) {
     .formation_content h1 {
         display: flex;
+        font-size: 3rem;
         word-break: keep-all;
         color: #d9d9d9;
     }

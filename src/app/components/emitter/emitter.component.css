@@ -17,7 +17,16 @@
 
 @media(max-width: 1200px) {
     .btn {
-        font-size: 1rem;
         font: 700 1rem/1 'Fira Sans', sans-serif;
+    }
+}
+
+@media(max-width: 600px) {
+    .btn {
+        font-size: .875rem;
+        padding: 6px 12px;
+    }
+    .btn svg {
+        display: none;
     }
 }

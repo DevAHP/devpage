@@ -1,4 +1,4 @@
-.intro_content{
+.intro_content {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -88,6 +88,24 @@
     }
     .photo > img {
         display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    .intro_describe {
+        gap: 40px;
+    }
+    .intro_describe-title p {
+        font-size: 1.125rem;
+    }
+    .intro_describe-title h1 {
+        font-size: 1.5rem;
+    }
+    .welcome p {
+        font-size: 1rem;
+    }
+    #curriculum {
+        width: 30px;
     }
 }
 
